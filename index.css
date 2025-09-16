@@ -1,0 +1,206 @@
+
+
+     * {
+           margin: 0;
+            padding: 0;
+        }
+
+        /* css Variables */
+        :root {
+            --navbar--height: 59px;
+        }
+
+        /* For logo CSS */
+
+        /* For navbar Bar CSS */
+        #navbar {
+            position: absolute;
+            
+        }
+
+        #navbar {
+            display: flex;
+            /* background-color: rgb(88, 216, 216); */
+            height: 60px;
+            align-items: center;
+            font-family: bree serif', serif;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: black;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.1 ;
+
+        }
+
+        /*  Navigation bar: logo and image css */
+        .log {
+            margin: 43px;
+            margin-top: 48px;
+        }
+
+        .log img {
+
+            width: 50px;
+            height: 48px;
+            border-radius: 50%;
+        }
+
+        /* Navigation Bar: and LIst style */
+        /* color white */
+        ul {
+            display: flex;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            
+
+
+        }
+
+        #navbar ul li a {
+            color: white;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+
+        }
+
+        #navbar ul li a:hover {
+            color: black;
+            background-color: white;
+            
+        }
+
+        /* Home Section CSS aDD */
+        #home{
+            display: flex;
+            flex-direction: column;
+            height: 700px;
+            padding: 3px 200px;
+            justify-content: center;
+            align-items: center;
+        }
+        #home::before{
+            content: "";
+            position: absolute;
+        
+        background: url('S:/Image for Project/Background1.avif') no-repeat center center;
+        background-size: cover;
+        height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.89;
+            
+        }
+        #home h1{
+            display: flex;
+            color: white;
+            text-align: center;
+            font-family: bree serif',serif;
+
+        }
+/* sarvices section */
+
+
+#services{
+    
+    display: flex;
+    
+    
+}
+#services .box{
+    
+    height: 250px;
+    border: 5px solid rgb(20, 19, 19);
+    border-radius: 22px;
+    margin: 34px 50px ;
+    padding: 20px;
+    
+    
+}
+#services img{
+    height: 160px;
+    border-radius: 40px;
+}
+
+
+        /* Utility Class */
+        .h-primary{
+            font-size: 2.8rem;
+            padding: 12px;
+            font-size: 3.8rem;
+            margin-top: 30px;
+            text-align: center;
+             font-family: bree serif',serif;
+            
+            
+            
+        }
+        .h-primary p{
+           font-family: bree serif',serif;
+            }
+
+        .h-secondery{
+font-size: 1.4rem;
+ font-family: bree serif',serif;
+        }
+
+        #home p{
+            color: white;
+            text-align: center;
+            font-size: 1.1rem;
+            font-family: 'bree serif', serif;
+        }
+        .btn{
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: rgb(16, 1, 1);
+            color: white;
+            margin-top: 20px;
+            font-size: 1.rem;
+            border-radius: 32px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            color: black;
+            background-color: white;
+        }
+       /* Client Section For CSS ADD */
+        #client-section{
+            height: 344px;
+
+        }
+        .client{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .client-item{
+            display: flex;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            height: 140px;
+        }
+        client-item::before{
+           content: "";
+           position: absolute;
+           background:url('c:/users/hp/Downloads/pexels-pixabay-459203.jpg')
+           
+        }
+        .client img{
+            height: 102px;
+            padding: 0px;
+
+
+        }
+        
+
